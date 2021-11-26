@@ -1,0 +1,29 @@
+Configurar o cliente GIT, para vincular os commits ao nome correto ( Autor dos commits)
+
+git config --global user.name "SEU NOME AQUI"
+git config --global user.email email@gmail.com
+
+Baixar o projeto do diretorio remoto para o diretorio local:
+
+~$ git clone [url]
+(essa url é dada no diretório que foi criado)
+
+Para baixar atualizações do repositório remoto para o repositorio local:
+
+~$ git pull
+
+Verificar os arquivos modificados
+
+~$ git status
+
+Adicionar os arquivos modificados para comitar:
+
+~$ git add .
+~$ git commit -m "meu primeiro commit"
+
+Subir os arquivos do repositório local para o repositorio remoto:
+
+~$ git push
+
+
+
