@@ -1,3 +1,5 @@
+Anotações
+
 Configurar o cliente GIT, para vincular os commits ao nome correto ( Autor dos commits)
 
 git config --global user.name "SEU NOME AQUI"
